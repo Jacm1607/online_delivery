@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/', 'WebController@inicio');
 
-//controlador para cliente
+//controlador para cliente cambiado
 
 Route::resource('consumidor','ConsumidorController');
