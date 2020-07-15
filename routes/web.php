@@ -13,7 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', 'WebController@inicio');
+Route::get('/registrar_cliente', 'WebController@from_cliente')->name('form_cliente');
 
 //controlador para cliente cambiado
-
-Route::resource('consumidor','ConsumidorController');
+Route::post('/guardar_registro', 'PersonaController@store')->name('save_cliente');
+// Route::resource('/persona','PersonaController@store');
