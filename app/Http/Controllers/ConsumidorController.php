@@ -7,30 +7,12 @@ use Illuminate\Http\Request;
 
 class ConsumidorController extends Controller
 {
-    public function index(Request $request)
+    public function create()
     {
-        //
+        return view('consumidor.create');
 
-        if($request){
-
-           
-            $consumidores=DB::table('consumidores')
-            ->where('nombre','LIKE','%'.$sql.'%');
-            
-            return view('consumidor.index');
-            //return $clientes;
-        }
-       
     }
 
-    
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
         //

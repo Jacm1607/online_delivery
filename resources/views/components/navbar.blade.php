@@ -10,7 +10,7 @@
 <div class="collapse navbar-collapse" id="navbarNavDropdown">
 <ul class="navbar-nav mr-auto ml-auto text-center">
   <li class="nav-item">
-    <a class="nav-link active" href="#">Inicio</a>
+    <a class="nav-link active" href="#">INICIO</a>
   </li>
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -43,7 +43,7 @@
     </div>
   </li>
     <div class="">
-        <a type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#abrirModal">Registrate</a>
+        <a type="button" class="btn btn-outline-light" href="{{route('consumidor.create')}}">Registrate</a>
         <button type="button" class="btn btn-outline-light">Inicia sesion</button>
     </div>
 </ul>

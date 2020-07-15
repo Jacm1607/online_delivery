@@ -1,7 +1,5 @@
 @extends('home')
 @section('contenido')
-    <!-- First Slide -->  
+    <!-- Carrusel/Slide/Seccion -->  
         <x-slider />
-    <!--Cuerpo -->
-      <hr>
 @endSection
