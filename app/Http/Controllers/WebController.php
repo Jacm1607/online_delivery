@@ -9,4 +9,7 @@ class WebController extends Controller
     public function inicio() {
         return view('welcome');
     }
+    public function from_cliente () {
+        return view('from/cliente');
+    }
 }
